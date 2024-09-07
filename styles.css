@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-top: 0;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+header li {
+    margin-right: 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: #337ab7;
+}
+
+header a:hover {
+    color: #23527c;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+section {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+section h2 {
+    margin-top: 0;
+}
+
+section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+section li {
+    margin-bottom: 10px;
+}
+
+section a {
+    text-decoration: none;
+    color: #337ab7;
+}
+
+section a:hover {
+    color: #23527c;
+}
+
+#education, #experience, #projects, #achievements, #relevant-courses, #coding-profiles, #technical-skills, #interests-and-hobbies {
+    grid-column: span 2;
+}
+
+#projects ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+#projects li {
+    margin-bottom: 20px;
+}
+
+#achievements ul {
+    columns: 2;
+    column-gap: 20px;
+}
+
+#achievements li {
+    margin-bottom: 10px;
+}
+/* Add a background image to the header */
+header {
+    background-image: url('background-image.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Add a hover effect to the section headers */
+section h2:hover {
+    color: #23527c;
+    cursor: pointer;
+}
+
+/* Add a margin to the section content */
+section ul {
+    margin-top: 20px;
+}
+
+/* Add a border to the section headers */
+section h2 {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+/* Add a padding to the footer */
+footer {
+    padding: 20px;
+    background-color: #f0f0f0;
+    text-align: center;
+    color: #666;
+}
+
+/* Add a hover effect to the footer links */
+footer a:hover {
+    color: #337ab7;
+}
